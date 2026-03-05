@@ -1,0 +1,124 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "React Basics",
+      "instructor": "John Doe",
+      "duration": "",
+      "thumbnail": "https://images.unsplash.com/photo-1633356122544-f134324a6cee",
+      "description": "Learn React fundamentals including components, props, and state."
+    },
+    {
+      "id": 2,
+      "title": "JavaScript Fundamentals",
+      "instructor": "David Miller",
+      "duration": "4 hours",
+      "thumbnail": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+      "description": "Understand variables, functions, arrays, objects, and ES6 features."
+    },
+    {
+      "id": 3,
+      "title": "Node.js for Beginners",
+      "instructor": "Emily Brown",
+      "duration": "4 hours",
+      "thumbnail": "https://images.unsplash.com/photo-1555949963-aa79dcee981c",
+      "description": "Build backend applications using Node.js and Express."
+    },
+    {
+      "id": 4,
+      "title": "Full Stack Web Development",
+      "instructor": "Jessica Taylor",
+      "duration": "10 hours",
+      "thumbnail": "https://images.unsplash.com/photo-1518770660439-4636190af475",
+      "description": "Build full stack applications using React, Node.js, and MongoDB."
+    },
+    {
+      "id": 5,
+      "title": "Git and GitHub",
+      "instructor": "Lisa Walker",
+      "duration": "2 hours",
+      "thumbnail": "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb",
+      "description": "Learn version control with Git and collaboration with GitHub."
+    },
+    {
+      "id": 6,
+      "title": "Python Programming",
+      "instructor": "Daniel Carter",
+      "duration": "6 hours",
+      "thumbnail": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4",
+      "description": "Learn Python programming from basics to advanced concepts."
+    },
+    {
+      "id": 7,
+      "title": "Java Programming",
+      "instructor": "Sophia Wilson",
+      "duration": "7 hours",
+      "thumbnail": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97",
+      "description": "Understand object-oriented programming concepts using Java."
+    },
+    {
+      "id": 8,
+      "title": "Data Structures and Algorithms",
+      "instructor": "Andrew Scott",
+      "duration": "12 hours",
+      "thumbnail": "https://images.unsplash.com/photo-1509228468518-180dd4864904",
+      "description": "Master DSA concepts for coding interviews."
+    },
+    {
+      "id": 9,
+      "title": "Machine Learning Basics",
+      "instructor": "Olivia Clark",
+      "duration": "8 hours",
+      "thumbnail": "https://images.unsplash.com/photo-1555255707-c07966088b7b",
+      "description": "Introduction to machine learning algorithms and models."
+    },
+    {
+      "id": 10,
+      "title": "Deep Learning with Python",
+      "instructor": "Noah Adams",
+      "duration": "9 hours",
+      "thumbnail": "https://images.unsplash.com/photo-1507146426996-ef05306b995a",
+      "description": "Build neural networks using TensorFlow and Keras."
+    },
+    {
+      "id": 11,
+      "title": "Docker for Developers",
+      "instructor": "William Parker",
+      "duration": "3 hours",
+      "thumbnail": "https://images.unsplash.com/photo-1605745341112-85968b19335b",
+      "description": "Containerize applications using Docker."
+    },
+    {
+      "id": 12,
+      "title": "AWS Cloud Basics",
+      "instructor": "Ethan Hall",
+      "duration": "4 hours",
+      "thumbnail": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8",
+      "description": "Introduction to cloud computing with AWS services."
+    },
+    {
+      "id": 13,
+      "title": "Cybersecurity Fundamentals",
+      "instructor": "Grace Young",
+      "duration": "6 hours",
+      "thumbnail": "https://images.unsplash.com/photo-1510511233900-1982d92bd835",
+      "description": "Learn the basics of network security and ethical hacking."
+    },
+    {
+      "id": 14,
+      "title": "SQL and Database Design",
+      "instructor": "Henry King",
+      "duration": "4 hours",
+      "thumbnail": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d",
+      "description": "Design and manage relational databases using SQL."
+    },
+    {
+      "id": 15,
+      "title": "Software Testing",
+      "instructor": "Chloe Harris",
+      "duration": "4 hours",
+      "thumbnail": "https://images.unsplash.com/photo-1581091870622-5f4fbe0b11f1",
+      "description": "Understand unit testing, integration testing, and automation."
+    }
+  ]
+}
