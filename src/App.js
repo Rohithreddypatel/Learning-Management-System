@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
+import ProtectedRoute from "./components/ProtectedRoute";
 
 import Home from "./pages/Home";
 import CourseDetails from "./pages/CourseDetails";
@@ -16,12 +17,33 @@ function App() {
       <Navbar />
 
       <Routes>
+
         <Route path="/" element={<Home />} />
+
         <Route path="/course/:id" element={<CourseDetails />} />
-        <Route path="/my-courses" element={<MyCourses />} />
-        <Route path="/player/:id" element={<CoursePlayer />} />
+
+        <Route
+          path="/my-courses"
+          element={
+            <ProtectedRoute>
+              <MyCourses />
+            </ProtectedRoute>
+          }
+        />
+
+        <Route
+          path="/player/:id"
+          element={
+            <ProtectedRoute>
+              <CoursePlayer />
+            </ProtectedRoute>
+          }
+        />
+
         <Route path="/login" element={<Login />} />
+
         <Route path="/signup" element={<Signup />} />
+
       </Routes>
 
     </Router>
