@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import ProgressBar from "../components/ProgressBar";
 
 function MyCourses() {
 
@@ -22,21 +23,31 @@ function MyCourses() {
 
       <h1>My Courses</h1>
 
-      {courses.map(course => (
-        <div key={course.id} style={styles.card}>
+      {courses.map(course => {
 
-          <img src={course.thumbnail} width="200" alt={course.title} />
+        const progress = Math.floor(Math.random() * 100);
 
-          <h3>{course.title}</h3>
+        return (
 
-          <p>{course.description.substring(0, 100)}...</p>
+          <div key={course.id} style={styles.card}>
 
-          <Link to={`/player/${course.id}`}>
-            <button>Start Course</button>
-          </Link>
+            <img src={course.thumbnail} width="200" alt={course.title} />
 
-        </div>
-      ))}
+            <h3>{course.title}</h3>
+
+            <p>{course.description.substring(0, 100)}...</p>
+
+            <ProgressBar progress={progress} />
+
+            <Link to={`/player/${course.id}`}>
+              <button>Continue Course</button>
+            </Link>
+
+          </div>
+
+        );
+
+      })}
 
     </div>
   );
@@ -45,7 +56,7 @@ function MyCourses() {
 const styles = {
   card: {
     border: "1px solid #ddd",
-    padding: "15px",
+    padding: "20px",
     marginBottom: "20px",
     borderRadius: "10px"
   }

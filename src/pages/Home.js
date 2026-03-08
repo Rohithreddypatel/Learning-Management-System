@@ -38,7 +38,7 @@ function Home() {
       />
 
       {loading ? (
-        <p>Loading courses</p>
+        <p>Loading courses...</p>
       ) : (
         <div style={styles.grid}>
           {filteredCourses.map(course => (
@@ -53,10 +53,10 @@ function Home() {
 
 const styles = {
   grid: {
-    display: "flex",
-    flexWrap: "wrap",
-    gap: "20px",
-  },
+    display: "grid",
+    gridTemplateColumns: "repeat(auto-fill, minmax(250px, 1fr))",
+    gap: "20px"
+  }
 };
 
 export default Home;
